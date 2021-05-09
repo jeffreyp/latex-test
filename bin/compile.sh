@@ -9,9 +9,9 @@ function once()
     pdflatex --interaction=nonstopmode --file-line-error --halt-on-error --shell-escape $@
 }
 
-./clean.sh || exit 1
+bin/clean.sh || exit 1
 
-cd ../docSource
-once DocSource.tex || exit 1
+cd docSource
+once DocSpec.tex || exit 1
 
 echo 'Success!'
