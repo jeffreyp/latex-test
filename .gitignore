@@ -2,3 +2,8 @@ docSource/DocSpec.fdb_latexmk
 docSource/DocSpec.fls
 docSource/DocSpec.lot
 docSource/DocSpec.pdf
+docSource/DocSpec.aux
+docSource/DocSpec.lof
+docSource/DocSpec.log
+docSource/DocSpec.toc
+
